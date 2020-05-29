@@ -57,4 +57,10 @@ public class MyClass{
     System.out.println("Hello World")
   }
 }
+JAVA VARIABLES
+String - stores text, surrounded by double quotes
+int - stores integers (whole numbers)
+float - stores floating point numbers, with decimals, such as 19.99 or -19.99 
+char - stores single characters, such 'a' or 'A', surrounded by single quotes
+boolean - stores values with two states: true or false
 */
