@@ -22,38 +22,38 @@ The main method
 - any code inside the main() method will be executed
 - every java program has a class name which must match the filename, and that every program must contain the main() method
 public class MyClass{
-  public static void (String[] args){
+  public static void main(String[] args){
     System.out.println("Hello World")
   }
 }
 public class MyClass{
-  public static void ( String[] args){
+  public static void main( String[] args){
     System.out.println("Hello World")
   }
 }
 public class MyClass{
-  public static void (String[] args){
+  public static void main(String[] args){
     System.out.println("Hellow World")
   }
 }
 public class MyClass(){
-  public static void (String[] args){
+  public static void main(String[] args){
     System.out.println("Hello World")
   }
 }
 public class MyClass {
-  public static void (String[] args){
+  public static void main(String[] args){
     System.out.println("Hello Word")
   }
 }
 public class MyClass {
-  public static void (String[] args){
+  public static void main(String[] args){
     System.out.println("hello World")
   }
 }
 
 public class MyClass{
-  public static void (String[] args){
+  public static void main(String[] args){
     System.out.println("Hello World")
   }
 }
@@ -63,4 +63,20 @@ int - stores integers (whole numbers)
 float - stores floating point numbers, with decimals, such as 19.99 or -19.99 
 char - stores single characters, such 'a' or 'A', surrounded by single quotes
 boolean - stores values with two states: true or false
+
+Declaring variables
+to creat a variable, you must specify the type and assign it a value. 
+type variable = value; 
+
+String name = "Nick";
+int number = 9;
+char character = 'V';
 */
+public class MyClass{
+  public static void main(String[] args ){
+    String name = "Nick";
+    System.out.println(name);
+    int number = 9;
+    System.out.println(number);
+  }
+}
