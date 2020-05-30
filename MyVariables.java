@@ -20,5 +20,24 @@ public class MyVariables{
     System.out.println(name);
     int number = 9;
     System.out.println(number);
+    int myNum = 5;
+    System.out.println(myNum);
+    float myFloatNum = 5.99f;
+    System.out.println(myFloatNum);
+    char myLetter = 'D';
+    System.out.println(myLetter);
+    boolean myBool = true;
+    System.out.println(myBool);
+    String myText = "Hello";
+    System.out.println(myText);
   }
 }
+/*
+println() is often used to display variables, you can use "+" to combine both text and a variable.
+
+to declare more than one variable fo the same type, use a comma-seperated list
+int x=5,t=6,z=50;
+System.out.println(z+t+x);
+
+
+*/
