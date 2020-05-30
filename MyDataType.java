@@ -24,6 +24,11 @@ Valid types are byte, short, int and long. Which type you should use, depends on
 Floating point types represents numbers with a fractional part, containing one or more decimals. 
 There are two types: float and double.
 
+Non-primitive data types are called reference types because they refer to objects. 
+
+Primitive type has always a value, while non-primitive types can be null. 
+Primitive type starts with a lowercase letter, non-primitive types starts with an upper case letter. 
+size of primitive datas depends on the data type, non primitive types have all the same size. 
 */
 
 
